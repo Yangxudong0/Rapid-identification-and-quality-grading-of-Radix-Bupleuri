@@ -32,7 +32,7 @@ _Raman datasets (with major component content).xlsx_ contains the content of the
 
 ## 7.code.ipynb
 In the file _code.ipynb_, you will find all the code for this manuscript, which is primarily divided into four main parts.
->(1).Generation of Spectra and Chromatographic Images<br/>
->(2)Region Discrimination and Variety Discrimination of Radix Bupleuri<br/>
->(3)Feature Extraction Based on XGBoost<br/>
->(4)Regression Analysis for the Determination of Major Component Content
+* Generation of Spectra and Chromatographic Images<br/>
+* Region Discrimination and Variety Discrimination of Radix Bupleuri<br/>
+* Feature Extraction Based on XGBoost<br/>
+* Regression Analysis for the Determination of Major Component Content
