@@ -5,7 +5,7 @@ Taking Bupleuri Radix as an example, a research method integrating machine learn
 The project structure is as follows:
 >code.ipynb
 >data
->>computed and computed spectrum.xlsx
+>>computed and computed spectrum.xlsx<br/>
 >>HPLC datasets.xlsx
 >>Raman datasets(black vs. others).xlsx
 >>Raman datasets(different region).xlsx
