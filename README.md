@@ -20,8 +20,7 @@ Similarly, _Raman datasets (black vs. others).xlsx_ also contains information ab
 _Raman datasets(different region).xlsx_ contains information about the origins of 119 samples. A total of three regions, Inner Mongolia, Gansu, and Shaanxi, were included in the collection of Radix Bupleuri samples. Specifically, there are 63 samples from Inner Mongolia, 30 samples from Gansu, and 26 samples from Shaanxi. The "type" column represents the labels for the data, with 0 indicating Inner Mongolia, 1 indicating Gansu, and 2 indicating Shaanxi.
 
 ## 4.Raman datasets(with major component content).xlsx
-_Raman datasets (with major component content).xlsx_ is used for regression prediction of the major components (SSa, SSc, SSd) content in Radix Bupleuri samples. The content of the three maajor components is determined through HPLC analysis.
-
+_Raman datasets (with major component content).xlsx_ is used for regression prediction of the major components (SSa, SSc, SSd) content in Radix Bupleuri samples. The gradient concentrations of three major components are determined through HPLC analysis.
 ## 5.code.ipynb
 In the file _code.ipynb_, you will find all the code for this manuscript, which is primarily divided into four main parts.
 * Generation of Spectra Images
