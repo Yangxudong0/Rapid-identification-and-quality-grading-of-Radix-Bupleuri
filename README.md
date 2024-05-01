@@ -3,12 +3,18 @@ Original Data and Code for the Paper _Machine Learning-Assisted Raman Spectrosco
 Taking Bupleuri Radix as an example, a research method integrating machine learning and chemical analysis has been developed for rapid identification of variety and origins, as well as quality grading, of Chinese herbal materials.In this study, a total of 119 Radix Bupleuri samples were collected, including samples from different origins and different variety.
 
 The project structure is as follows:
-* code.ipynb
+* code_with_aug.ipynb
+* code_without_aug.ipynb
 * data
     * Raman datasets(black vs. others).xlsx
     * Raman datasets(wild vs cultivated).xlsx
     * Raman datasets(different region).xlsx
     * Raman datasets(with major component content).xlsx
+## code_without_aug.ipynb
+This file(_code_without_aug.ipynb_) is the main code of this project, mainly including image rendering, classification, and the establishment of regression models (SVM, XGBoost, LightGBM).
+
+## code_with_aug.ipynb
+This file(_code_with_aug.ipynb_) contains experiments that combine data augmentation for both classification and regression.
 
 ## 1.Raman datasets(black vs. others).xlsx
 _Raman datasets (black vs. others).xlsx_ contains information about the Variety of 63 Radix Bupleuri samples. The samples have been divided into "black Radix Bupleuri" (18 samples) and "other Radix Bupleuri" (45 samples).The "type" column represents the labels for the data, where 1 stand for black Radix Bupleuri and 0 stand for other Radix Bupleuri.
